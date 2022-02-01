@@ -1,0 +1,50 @@
+{
+  "name": "kinship-api",
+  "version": "1.0.0",
+  "description": "API for kinship system",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./src/index.js",
+    "start:test": "jest",
+    "start:test-watch": "jest --watch",
+    "start:prod": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WalujoEmmanuel/kinship-api.git"
+  },
+  "keywords": [
+    "Kinship",
+    "cash",
+    "money",
+    "connection",
+    "friends",
+    "growth"
+  ],
+  "author": "Walujo Emmanuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WalujoEmmanuel/kinship-api/issues"
+  },
+  "homepage": "https://github.com/WalujoEmmanuel/kinship-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0",
+    "graphql-upload": "^13.0.0",
+    "knex": "^1.0.1",
+    "nodemailer": "^6.7.2",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
